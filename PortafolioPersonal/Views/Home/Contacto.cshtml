@@ -1,0 +1,33 @@
+﻿<form class="formulario py-5">
+    <div class="container">
+        <h4>Hablemos</h4>
+        <p class="text-muted mb-4">¿Tenés alguna consulta, propuesta o comentario? Completá el formulario y te responderé a la brevedad.</p>
+
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <label class="form-label" for="txtNombre">Nombre completo</label>
+                <input id="txtNombre" name="txtNombre" class="form-control" type="text" placeholder="Ej: Juan Pérez" required />
+            </div>
+            <div class="col-12 col-md-6">
+                <label class="form-label" for="txtEmail">Correo electrónico</label>
+                <input id="txtEmail" name="txtEmail" class="form-control" type="email" placeholder="Ej: juan@correo.com" />
+            </div>
+            <div class="col-12 mb-3">
+                <label class="form-label" for="cboAsunto">Motivo de contacto</label>
+                <select id="cboAsunto" name="cboAsunto" class="form-select">
+                    <option selected disabled>Seleccioná una opción</option>
+                    <option value="presupuesto">Solicitar presupuesto / Contratación</option>
+                    <option value="proyecto">Propuesta de proyecto o colaboración</option>
+                    <option value="duda">Consulta general</option>
+                </select>
+            </div>
+            <div class="col-12 mb-3">
+                <label class="form-label" for="txtMensaje">Mensaje</label>
+                <textarea id="txtMensaje" name="txtMensaje" class="form-control" rows="4" placeholder="Contame los detalles de tu consulta..."></textarea>
+            </div>
+            <div class="col-12 mb-3">
+                <button class="botonformulario btn btn-primary">Enviar mensaje</button>
+            </div>
+        </div>
+    </div>
+</form>

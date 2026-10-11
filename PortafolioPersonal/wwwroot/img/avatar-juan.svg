@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" role="img" aria-label="Avatar ilustrado de Juan Melgar frente a una laptop">
+  <defs>
+    <clipPath id="c"><circle cx="240" cy="240" r="230"/></clipPath>
+  </defs>
+
+  <!-- Fondo -->
+  <circle cx="240" cy="240" r="230" fill="#ede9fe"/>
+
+  <g clip-path="url(#c)">
+    <!-- Decoración -->
+    <text x="64" y="132" font-family="Consolas, 'Courier New', monospace" font-size="34" font-weight="700" fill="#512BD4" opacity="0.4">&lt;/&gt;</text>
+    <circle cx="396" cy="112" r="14" fill="#F59E0B"/>
+    <circle cx="410" cy="250" r="8" fill="#1565C0" opacity="0.5"/>
+
+    <!-- Cuello -->
+    <path d="M212 290 L212 372 C225 386 255 386 268 372 L268 290 Z" fill="#e0b08c"/>
+
+    <!-- Campera -->
+    <path d="M60 480 C70 400 130 372 196 364 C220 380 260 380 284 364 C350 372 410 400 420 480 Z" fill="#111827"/>
+    <path d="M196 364 C220 380 260 380 284 364" fill="none" stroke="#374151" stroke-width="5" stroke-linecap="round"/>
+    <line x1="240" y1="382" x2="240" y2="480" stroke="#374151" stroke-width="3"/>
+    <rect x="236" y="384" width="8" height="14" rx="2" fill="#6b7280"/>
+
+    <!-- Orejas -->
+    <ellipse cx="165" cy="232" rx="11" ry="17" fill="#e9b891"/>
+    <ellipse cx="315" cy="232" rx="11" ry="17" fill="#e9b891"/>
+
+    <!-- Cabeza -->
+    <ellipse cx="240" cy="225" rx="76" ry="90" fill="#f1c9a5"/>
+
+    <!-- Pelo -->
+    <path d="M162 228 C150 150 195 112 244 112 C296 112 332 152 318 228 C312 200 304 182 290 172 C270 186 232 190 206 176 C188 188 172 206 162 228 Z" fill="#1c1a22"/>
+    <path d="M196 130 C190 106 212 96 226 110 C234 92 258 92 264 110 C278 98 300 108 292 130 Z" fill="#1c1a22"/>
+
+    <!-- Cara -->
+    <path d="M196 214 Q210 207 224 213" fill="none" stroke="#1c1a22" stroke-width="4" stroke-linecap="round"/>
+    <path d="M256 213 Q270 207 284 214" fill="none" stroke="#1c1a22" stroke-width="4" stroke-linecap="round"/>
+    <ellipse cx="210" cy="232" rx="7" ry="8.5" fill="#1f2937"/>
+    <ellipse cx="270" cy="232" rx="7" ry="8.5" fill="#1f2937"/>
+    <circle cx="212" cy="229" r="2.2" fill="#ffffff"/>
+    <circle cx="272" cy="229" r="2.2" fill="#ffffff"/>
+    <path d="M240 240 Q234 262 242 266" fill="none" stroke="#d29a76" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="200" cy="262" r="10" fill="#f08a7a" opacity="0.25"/>
+    <circle cx="280" cy="262" r="10" fill="#f08a7a" opacity="0.25"/>
+    <path d="M224 282 Q240 292 256 282" fill="none" stroke="#a8644e" stroke-width="3.5" stroke-linecap="round"/>
+
+    <!-- Laptop -->
+    <rect x="128" y="404" width="224" height="6" rx="3" fill="#94a3b8"/>
+    <rect x="128" y="408" width="224" height="130" rx="12" fill="#cbd5e1"/>
+    <rect x="222" y="436" width="36" height="36" rx="9" fill="#512BD4"/>
+    <text x="240" y="460" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">JM</text>
+  </g>
+</svg>

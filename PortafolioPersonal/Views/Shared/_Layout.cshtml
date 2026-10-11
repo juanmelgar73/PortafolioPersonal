@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Portafolio Personal Juan melgar</title>
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="~/PortafolioPersonal.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-light text-dark border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 290 60" width="290" height="60" role="img" aria-label="Juan Melgar - Analista de Sistemas .NET">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#512BD4"/>
+      <stop offset="1" stop-color="#1565C0"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="6" width="48" height="48" rx="12" fill="url(#g)"/>
+  <path d="M13 22 L8 30 L13 38" fill="none" stroke="#ffffff" stroke-opacity="0.55" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" transform="translate(3 0)"/>
+  <path d="M43 22 L48 30 L43 38" fill="none" stroke="#ffffff" stroke-opacity="0.55" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" transform="translate(-3 0)"/>
+  <text x="28" y="37" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#ffffff">JM</text>
+  <text x="64" y="30" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#1f2937">Juan Melgar</text>
+  <text x="65" y="46" font-family="Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="600" letter-spacing="1.6" fill="#512BD4">ANALISTA DE SISTEMAS .NET</text>
+</svg>
+                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse">
+                    <ul class="a navbar-nav flex-grow-1 d-flex align-items-center justify-content-center gap-5 text-uppercase">
+                        <li class="nav-item">
+                            <a class="navs nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">
+                                <i class="fa-solid fa-house me-2"></i>Inicio
+
+                                </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="navs nav-link text-dark" asp-area="" asp-controller="Home" asp-action="MisProyectos">
+                                <i class="fa-solid fa-folder-open me-2"></i>Mis Proyectos
+
+                               </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="navs nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Sobremi">
+                                <i class="fa-solid fa-user me-2"></i>Sobre mi
+
+                              </a>
+                        </li>
+                 
+                    </ul>
+
+                </div>
+                <a href="@Url.Action("Contacto", "Home")" class="btn btn-primary">
+                    Contacto
+                </a>
+            </div>
+        </nav>
+    </header>
+        <main role="main" class="">
+            @RenderBody()
+        </main>
+        <br />
+    <footer class="footer bg-light">
+
+        <div class="contenido-footer">
+            <h4 class="text-center text-decoration-underline">Proyectos</h4>
+            <ul>
+                <li><a href="#proyectos"><i class="fa-solid fa-code me-2"></i>Sistemas Web (.NET 8 / C#)</a></li>
+                <li><a href="#api-docs"><i class="fa-solid fa-gears me-2"></i>Web APIs & Integraciones</a></li>
+                <li><a href="#database"><i class="fa-solid fa-database me-2"></i>Modelado de Bases de Datos</a></li>
+                <li><a href="#github-repos"><i class="fa-brands fa-github me-2"></i>Repositorios en GitHub</a></li>
+                <li><a href="#casos-exito"><i class="fa-solid fa-laptop-code me-2"></i>Casos de Estudio / Arquitectura</a></li>
+            </ul>
+        </div>
+
+        <div class="iconosredes m-3">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+
+            <p class="text-black text-decoration-underline">Proyecto Personal Todos los derechos reservados</p>
+        </div> 
+
+        <div class="contenido-footer">
+            <ul>
+                <li><a href="#"><i class="fa-solid fa-location-dot"></i></a>Oliva,Córdoba, Argentina</li>
+                <li><a href="#"><i class="fa-solid fa-phone"></i></a>+54 9 3532588628</li>
+                <li><a href="#"><i class="fa-solid fa-envelope"></i></a>juanmelgar7708@gmail.com</li>
+            </ul>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
